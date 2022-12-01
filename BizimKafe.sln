@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BizimKafe.DATA", "BizimKafe.DATA\BizimKafe.DATA.csproj", "{D4A53580-3413-4AA2-B256-6452B6502704}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BizimKafe.UI", "BizimKafe.UI\BizimKafe.UI.csproj", "{75F095D6-4E07-4E54-A594-A4E55111E0F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4A53580-3413-4AA2-B256-6452B6502704}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4A53580-3413-4AA2-B256-6452B6502704}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4A53580-3413-4AA2-B256-6452B6502704}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4A53580-3413-4AA2-B256-6452B6502704}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75F095D6-4E07-4E54-A594-A4E55111E0F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75F095D6-4E07-4E54-A594-A4E55111E0F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75F095D6-4E07-4E54-A594-A4E55111E0F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75F095D6-4E07-4E54-A594-A4E55111E0F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B95281EA-CA49-436F-87CF-C5BE43EC28AC}
+	EndGlobalSection
+EndGlobal
