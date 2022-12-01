@@ -50,7 +50,6 @@ namespace BizimKafe.UI
                 item.ImageKey = db.AktifSiparisler.Any(x => x.MasaNo == i) ? "dolu" : "bos";
                 item.Tag = i;//Tag herşeyi saklar. Object türündedir.
                 lvwMasalar.Items.Add(item);
-
             }
         }
 
