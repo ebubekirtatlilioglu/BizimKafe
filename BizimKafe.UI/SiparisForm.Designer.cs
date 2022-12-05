@@ -40,7 +40,7 @@
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label3 = new System.Windows.Forms.Label();
-            this.cmbMasaNo = new System.Windows.Forms.ComboBox();
+            this.cboMasaNo = new System.Windows.Forms.ComboBox();
             this.btnTasi = new System.Windows.Forms.Button();
             this.lblMasaNO = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -187,16 +187,16 @@
             this.label3.TabIndex = 6;
             this.label3.Text = "Masa No";
             // 
-            // cmbMasaNo
+            // cboMasaNo
             // 
-            this.cmbMasaNo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.cmbMasaNo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbMasaNo.FormattingEnabled = true;
-            this.cmbMasaNo.Location = new System.Drawing.Point(655, 56);
-            this.cmbMasaNo.Margin = new System.Windows.Forms.Padding(4);
-            this.cmbMasaNo.Name = "cmbMasaNo";
-            this.cmbMasaNo.Size = new System.Drawing.Size(188, 33);
-            this.cmbMasaNo.TabIndex = 7;
+            this.cboMasaNo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.cboMasaNo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboMasaNo.FormattingEnabled = true;
+            this.cboMasaNo.Location = new System.Drawing.Point(655, 56);
+            this.cboMasaNo.Margin = new System.Windows.Forms.Padding(4);
+            this.cboMasaNo.Name = "cboMasaNo";
+            this.cboMasaNo.Size = new System.Drawing.Size(188, 33);
+            this.cboMasaNo.TabIndex = 7;
             // 
             // btnTasi
             // 
@@ -208,6 +208,7 @@
             this.btnTasi.TabIndex = 8;
             this.btnTasi.Text = "TAŞI";
             this.btnTasi.UseVisualStyleBackColor = true;
+            this.btnTasi.Click += new System.EventHandler(this.btnTasi_Click);
             // 
             // lblMasaNO
             // 
@@ -298,7 +299,7 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.lblMasaNO);
             this.Controls.Add(this.btnTasi);
-            this.Controls.Add(this.cmbMasaNo);
+            this.Controls.Add(this.cboMasaNo);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.dgvSiparisDetaylar);
             this.Controls.Add(this.btnEkle);
@@ -327,7 +328,7 @@
         private Button btnEkle;
         private DataGridView dgvSiparisDetaylar;
         private Label label3;
-        private ComboBox cmbMasaNo;
+        private ComboBox cboMasaNo;
         private Button btnTasi;
         private Label lblMasaNO;
         private Label label5;
